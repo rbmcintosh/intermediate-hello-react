@@ -39,7 +39,7 @@ function HomePage() {
                   <source src="./video/Black_Keys.ogv" type="video/ogv" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
                 <div className="poster hidden">
-                    <img src="./images/Love-Coding.jpg" alt=""/>
+                    <img src="./images/Black_Keys.jpg" alt=""/>
                 </div>
             </div>
         </div>
