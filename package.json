@@ -1,0 +1,54 @@
+{
+  "name": "my_portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "eslint": "^3.19.0",
+    "express": "4.16.2",
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-animated-css": "^1.0.1",
+    "react-audio-player": "^0.6.2",
+    "react-bootstrap": "^0.31.3",
+    "react-bootstrap-carousel": "^1.2.0",
+    "react-dom": "^15.6.1",
+    "react-easy-audio": "^0.2.3",
+    "react-image": "^1.0.1",
+    "react-image-zoomer": "^1.0.0",
+    "react-images": "^0.5.6",
+    "react-music-player": "^1.0.3",
+    "react-native-pdf-view": "^0.3.2",
+    "react-pdf": "^2.1.6",
+    "react-player": "^0.25.2",
+    "react-redux": "^5.0.6",
+    "react-responsive-carousel": "^3.1.25",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-sound": "^0.8.0",
+    "react-transition-group": "^1.2.0",
+    "redux": "^3.7.2",
+    "screenfull": "^3.3.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "bootstrap-css": "^4.0.0-alpha.5",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^7.0.1",
+    "react-scripts": "1.0.6",
+    "react-social-icons": "^2.7.0",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "homepage": "http://www.byryanmcintosh.com"
+}
