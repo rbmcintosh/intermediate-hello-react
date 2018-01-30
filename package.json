@@ -48,7 +48,8 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-    "node": "6.9.4"
+    "node": "6.9.4",
+    "npm": "3.10.10"
   },
   "homepage": "http://www.byryanmcintosh.com"
 }
