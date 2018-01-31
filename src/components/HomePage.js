@@ -34,12 +34,12 @@ function HomePage() {
             <div className="video-container">
                 <div className="filter"></div>
                 <video autoPlay loop className="fillWidth">
-                  <source src="./video/Black_Keys.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                  <source src="./video/Black_Keys.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                  <source src="./video/Black_Keys.ogv" type="video/ogv" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                  <source src="../video/Black_Keys.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                  <source src="../video/Black_Keys.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                  <source src="../video/Black_Keys.ogv" type="video/ogv" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
                 <div className="poster hidden">
-                    <img src="./images/Black_Keys.jpg" alt=""/>
+                    <img src="../images/Black_Keys.jpg" alt=""/>
                 </div>
             </div>
         </div>
