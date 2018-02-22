@@ -441,4 +441,16 @@ iframe {
   color: white;
 }
 
+/* Projects */
 
+#construction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+#uc_logo {
+  height: 500px;
+  
+}
