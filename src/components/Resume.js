@@ -21,7 +21,7 @@ function Resume(props) {
               <Link className="my-nav-link" to="/projects">Web Projects</Link>
             </li>
             <li className="nav-item">
-              <Link className="my-nav-link" to="/gallery">Photoshop Gallery</Link>
+              <Link className="my-nav-link" to="/gallery">Design Gallery</Link>
             </li>
           </ul>
         </div>
