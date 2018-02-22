@@ -6,6 +6,14 @@ import Img_2 from '../images/nightmare_barbie.jpg';
 import Img_3 from '../images/It.jpg';
 import Img_4 from '../images/roller skate party.jpg';
 import Img_5 from '../images/fogle.jpg';
+import Img_6 from '../images/foot_2.jpg';
+import Img_7 from '../images/EQUALMAN.jpg';
+import Img_8 from '../images/erik_colorbooks.jpg';
+import Img_9 from '../images/sphere_practice.png';
+import Img_10 from '../images/bubb_logo-01.png';
+import Img_11 from '../images/ASU_mockup.jpg';
+import Img_12 from '../images/debabyjesus_2.jpg';
+import Img_13 from '../images/Baby Jesus.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Animated} from "react-animated-css";
 
@@ -75,31 +83,32 @@ class Gallery extends React.Component {
         </div>  */}
         <div id="img-wrapper">
           <img id="ps-logo" src="https://s-media-cache-ak0.pinimg.com/originals/3a/95/ed/3a95ed4894f7e20a138d812e940adbbc.png" />
+          <img id="ps-logo" src="http://icons.veryicon.com/png/Application/Custom%20Round%20Yosemite/Adobe%20Illustrator.png" />
         </div> 
         <section className="ps" >
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_1} alt="" />
             <img className="photoshop_img" src={Img_2} alt="" />
             <img className="photoshop_img" src={Img_3} alt="" />
-            <img className="photoshop_img" src={Img_3} alt="" />
+            <img className="photoshop_img" src={Img_4} alt="" />
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-            <img className="photoshop_img" src={Img_4} alt="" />
             <img className="photoshop_img" src={Img_5} alt="" />
+            <img className="photoshop_img" src={Img_6} alt="" />
+            <img className="photoshop_img" src={Img_7} alt="" />
+            <img className="photoshop_img" src={Img_8} alt="" />
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <img className="photoshop_img" src={Img_9} alt="" />
+            <img className="photoshop_img" src={Img_10} alt="" />
+            <img className="photoshop_img" src={Img_11} alt="" />
+            <img className="photoshop_img" src={Img_12} alt="" />
+          </div>
+          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
+            <img className="photoshop_img" src={Img_13} alt="" />
+            <img className="photoshop_img" src={Img_2} alt="" />
             <img className="photoshop_img" src={Img_1} alt="" />
-            <img className="photoshop_img" src={Img_3} alt="" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-            <img className="photoshop_img" src={Img_2} alt="" />
-            <img className="photoshop_img" src={Img_4} alt="" />
-            <img className="photoshop_img" src={Img_5} alt="" />
-            <img className="photoshop_img" src={Img_3} alt="" />
-          </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-            <img className="photoshop_img" src={Img_2} alt="" />
-            <img className="photoshop_img" src={Img_4} alt="" />
-            <img className="photoshop_img" src={Img_5} alt="" />
-            <img className="photoshop_img" src={Img_3} alt="" />
+            <img className="photoshop_img" src={Img_6} alt="" />
           </div>
         </section>
       <div>

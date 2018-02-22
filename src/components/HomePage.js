@@ -25,16 +25,16 @@ function HomePage() {
             <Link className="my-nav-link" to="/projects">Web Projects</Link>
           </li>
           <li className="nav-item">
-            <Link className="my-nav-link" to="/gallery">Photoshop Gallery</Link>
+            <Link className="my-nav-link" to="/gallery">Design Gallery</Link>
           </li>
         </ul>
       </div>
     </nav>
-    <div className="homepage-hero-module">
+    {/* <div className="homepage-hero-module">
             <div className="video-container">
                 <div className="filter"></div>
                 <video autoPlay loop className="fillWidth">
-                  <source src=".../build/static/media/Black_Keys.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                  <source src="../video/Black_Keys.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                   <source src="../video/Black_Keys.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                   <source src="../video/Black_Keys.ogv" type="video/ogv" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
@@ -42,11 +42,11 @@ function HomePage() {
                     <img src="../images/Black_Keys.jpg" alt=""/>
                 </div>
             </div>
-        </div>
+        </div> */}
         
-    {/* <div class="container">
+    <div class="container">
       <iframe src="https://player.vimeo.com/video/8981918?autoplay=true&loop=1&controls=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-    </div>  */}
+    </div> 
       <div className="text center">
         <Animated animationIn="lightSpeedIn">
           <h1 className="">BY Ryan McIntosh<br></br>
