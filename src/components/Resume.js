@@ -7,7 +7,7 @@ function Resume(props) {
     <div id="resume_div">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link className="my-navbar-brand" to="/">
-          <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.free-icons-download.net/images/button-home-house-icon-63650.png" alt="Home" /></Animated>
+        <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.pvhc.net/img144/mxucxzruwiwrnmmzlxxl.png" alt="Home" /></Animated>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
