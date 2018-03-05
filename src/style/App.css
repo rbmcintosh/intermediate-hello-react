@@ -122,7 +122,7 @@ iframe {
 .bg-light {
   background: rgba(255, 255, 255, 0.3) !important;
   position: absolute;
-  border-bottom: 1px solid white !important;
+  border-bottom: 1px solid whitesmoke !important;
 }
 
 .navbar {
@@ -411,7 +411,7 @@ iframe {
   -webkit-box-shadow: 0px 0px 40px 0px rgb(255, 255, 255);
   -moz-box-shadow:    0px 0px 40px 0px rgb(255, 255, 255);
   box-shadow:         0px 0px 40px 0px rgb(255, 255, 255);
-  /* transition: box-shadow 0s ease-in-out; */
+  /* transition: box-shadow .3s ease-in-out; */
 }
 
 /* Resume */
