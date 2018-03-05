@@ -13,6 +13,16 @@
   src: url(../fonts/valium.ttf);
 }
 
+@font-face {
+  font-family: 'Money';
+  src: url(../fonts/Money.ttf);
+}
+
+@font-face {
+  font-family: 'vtks';
+  src: url(../fonts/vtks_ink.ttf);
+}
+
 .App {
   text-align: center;
 }
@@ -433,12 +443,26 @@ iframe {
 }
 
 #section {
-  height: 200px;
+  height: auto;
   margin-left: 5%;
+  margin-right: 5%;
+  
 }
 
 #section-title {
   color: white;
+  width: 95%;
+  font-size: 50px;
+  font-family: 'Money';
+  padding-bottom: 25px;
+  border-bottom: 2px solid steelblue;
+}
+
+li {
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: ;
+  margin-bottom: 3px;
 }
 
 /* Projects */

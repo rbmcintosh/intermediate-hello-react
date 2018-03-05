@@ -33,7 +33,12 @@ function Resume(props) {
         <img id="resume-logo" src="https://www.trendinginfo.net/wp-content/uploads/2016/12/resume-writing-tips.png" />
       </div> 
       <div id="section">
-        <h2 id="section-title">Profile</h2>
+        <h2 id="section-title">Profile</h2><br></br>
+        <ul>
+          <li>Junior web developer and graduate student offering a strong foundation in software engineering and programming principles across multiple platforms.</li>
+          <li>Experienced in object-oriented programming, developing, testing and debugging code, designing interfaces, and administering systems and networks.</li>
+          <li>Ability to quickly learn and master new technologies. Successful working in both team and self-directed settings.</li>
+        </ul>
       </div>
       <div id="section">
         <h2 id="section-title">Employment</h2>
