@@ -27,7 +27,7 @@ function Resume(props) {
         </div>
       </nav>
       <div class="container">
-        <iframe src="https://player.vimeo.com/video/8981918?autoplay=true&loop=1&controls=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+        <iframe src="https://player.vimeo.com/video/177723938?autoplay=true&loop=1&controls=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
       </div>
       <div id="img-wrapper-2">
         <img id="resume-logo" src="https://www.trendinginfo.net/wp-content/uploads/2016/12/resume-writing-tips.png" />

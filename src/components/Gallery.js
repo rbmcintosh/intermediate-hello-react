@@ -45,7 +45,7 @@ class Gallery extends React.Component {
           </div>
         </nav>
         <div class="container">
-          <iframe src="https://player.vimeo.com/video/8981918?autoplay=true&loop=1&controls=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+          <iframe src="https://player.vimeo.com/video/177723938?autoplay=true&loop=1&controls=1" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
         </div>
         {/* <div id="my_carousel">
           <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
