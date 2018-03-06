@@ -41,16 +41,44 @@ function Resume(props) {
         </ul>
       </div>
       <div id="section">
-        <h2 id="section-title">Employment</h2>
+        <h2 id="section-title">Employment</h2><br></br>
+        <ul>
+          <li>Lakeside Technology Associates - Junior Web Developer (February 2017 - present)</li>
+          <li>Walgreen Co. - Drug Store Manager (March 2005 - April 2016)</li>
+        </ul>
       </div>
       <div id="section">
-        <h2 id="section-title">Education</h2>
+        <h2 id="section-title">Education</h2><br></br>
+        <ul>
+          <li>Austin Coding Academy - Full Stack Web Development Certification (October 2016 - July 2017)</li>
+          <li>Texas State University - Bachelors of Business Administration (January 2000 - August 2004)</li>
+        </ul>
       </div>
       <div id="section">
-        <h2 id="section-title">Courses</h2>
+        <h2 id="section-title">Courses</h2><br></br>
+        <ul>
+          <li>Photoshop 1 - Austin Contemporary Art School (October 2017 - December 2017)</li>
+          <li>Advanced Photoshop - Austin Contemporary Art School (January 2018 - March 2018</li>
+          <li>Adobe Illustrator - Austin Community College (February 2018 - present)</li>
+        </ul>
       </div>
       <div id="section">
-        <h2 id="section-title">Skills</h2>
+        <h2 id="section-title">Skills</h2><br></br>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>jQuery</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>MongoDB</li>
+          <li>Authentication</li>
+          <li>Debugging</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe Illustrator</li>
+        </ul>
       </div>
     </div>
   );
