@@ -94,13 +94,17 @@ iframe {
 
 .navbar {
   position: fixed;
-  height: 80px;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-content: center;
   z-index: 1;
+  margin-bottom: 0px !important;
+}
+
+.nav-item {
   margin-bottom: 0px !important;
 }
 
@@ -150,6 +154,7 @@ iframe {
   margin: 0px 15px 0px 15px;
   font-family: 'Preschool';
   font-size: 25px;
+  padding: 0px !important;
 }
 
 .my-nav-link:hover {
@@ -162,28 +167,6 @@ iframe {
   outline: 0 none;
   color: #fff;
 	text-shadow: -1px 1px 8px #ffc, 1px -1px 8px #fff;
-}
-
-
-.blur {
-  background: url("") no-repeat center center fixed;
-  background-size: cover;
-  overflow: hidden;
-  filter: blur(13px);
-  position: absolute;
-  height: 300px;
-  top: -50px;
-  left: -50px;
-  right: -50px;
-  bottom: -50px;
-}
-
-.widget {
-  display: flex;
-  flex-direction: row;
-  height: 200px;
-  width: 100%;
-  overflow: hidden;
 }
 
 .center {
