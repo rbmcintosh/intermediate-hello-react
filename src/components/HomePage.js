@@ -79,6 +79,11 @@ function HomePage() {
           </h1>
         </Animated>
       </div>
+      <div id="footer">
+        <h3 id="ci">Contact Information:</h3>
+        <p5 className="info">email - ryanbmcintosh@gmail.com</p5>
+        <p5 className="info">phone - (832)814-3305</p5>
+        </div>
     </div> 
   );
 }
