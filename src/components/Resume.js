@@ -45,6 +45,7 @@ function Resume(props) {
         <ul>
           <li>Lakeside Technology Associates - Junior Web Developer (February 2017 - present)</li>
           <li>Walgreen Co. - Drug Store Manager (March 2005 - April 2016)</li>
+          <li>Big Gorilla Design - Web and Graphic Design Internship (March 2018 - present)</li>
         </ul>
       </div>
       <div id="section">

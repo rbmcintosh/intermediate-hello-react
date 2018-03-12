@@ -4,16 +4,20 @@ import {Link} from "react-router-dom";
 import Img_1 from '../images/gasmask.jpg';
 import Img_2 from '../images/nightmare_barbie.jpg';
 import Img_3 from '../images/It.jpg';
-import Img_4 from '../images/roller skate party.jpg';
+import Img_4 from '../images/portfolio_1.jpg';
 import Img_5 from '../images/fogle.jpg';
 import Img_6 from '../images/foot_2.jpg';
 import Img_7 from '../images/EQUALMAN.jpg';
 import Img_8 from '../images/erik_colorbooks.jpg';
 import Img_9 from '../images/sphere_practice.png';
-import Img_10 from '../images/bubb_logo-01.png';
+import Img_10 from '../images/bubb_logo.jpg';
 import Img_11 from '../images/ASU_mockup.jpg';
 import Img_12 from '../images/debabyjesus_2.jpg';
 import Img_13 from '../images/Baby Jesus.jpg';
+import Img_14 from '../images/B.png';
+import Img_15 from '../images/M.jpg';
+import Img_16 from '../images/paisley.jpg';
+import Img_17 from '../images/Shadow.jpg';
 import 'bootstrap/dist/css/bootstrap.css';
 import {Animated} from "react-animated-css";
 
@@ -99,16 +103,16 @@ class Gallery extends React.Component {
             <img className="photoshop_img" src={Img_8} alt="" />
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
-            <img className="photoshop_img" src={Img_9} alt="" />
+            <img className="photoshop_img" src={Img_14} alt="" />
             <img className="photoshop_img" src={Img_10} alt="" />
             <img className="photoshop_img" src={Img_11} alt="" />
             <img className="photoshop_img" src={Img_12} alt="" />
           </div>
           <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_13} alt="" />
-            <img className="photoshop_img" src={Img_2} alt="" />
-            <img className="photoshop_img" src={Img_1} alt="" />
-            <img className="photoshop_img" src={Img_6} alt="" />
+            <img className="photoshop_img" src={Img_15} alt="" />
+            <img className="photoshop_img" src={Img_16} alt="" />
+            <img className="photoshop_img" src={Img_17} alt="" />
           </div>
         </section>
       <div>

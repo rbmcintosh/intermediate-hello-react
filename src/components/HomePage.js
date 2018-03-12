@@ -81,8 +81,9 @@ function HomePage() {
       </div>
       <div id="footer">
         <h3 id="ci">Contact Information:</h3>
-        <p5 className="info">email - ryanbmcintosh@gmail.com</p5>
-        <p5 className="info">phone - (832)814-3305</p5>
+        <p5 className="info">Email - ryanbmcintosh@gmail.com</p5>
+        <p5 className="info">Phone - (832)814-3305</p5>
+        <p5 className="info">Address - 7211 Easy Wind Drive, Unit 1137<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Austin, Texas 78752</p5>
         </div>
     </div> 
   );
