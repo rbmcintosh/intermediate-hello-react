@@ -94,7 +94,6 @@ iframe {
 .bg-light {
   background: rgba(255, 255, 255, 0.3) !important;
   position: absolute;
-  border-bottom: 1px solid whitesmoke !important;
 }
 
 .navbar {
@@ -129,6 +128,10 @@ iframe {
     padding-bottom: 0;
     overflow: visible !important;
   }
+}
+
+.navbar {
+  border: none !important;
 }
 
 
@@ -271,7 +274,6 @@ iframe {
   position: absolute;
   bottom: 0px;
   background: rgba(255, 255, 255, 0.3) !important;
-  border-top: 1px solid whitesmoke !important;
 }
 
 #ci {
