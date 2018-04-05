@@ -49,7 +49,8 @@ function HomePage() {
     </div> 
       <div className="text center">
         <Animated animationIn="lightSpeedIn">
-          <h1 className="">BY Ryan McIntosh<br></br>
+          <h1 className="">Ryan McIntosh<br></br>
+          <p>Passionate web designer, skilled in Adobe Creative Suite, HTML, CSS. Creates seamless UX and UI with creative but functional designs. Designed 10+ websites, including an ecommerce baseball hat sales site. Site for free online video game was shortlisted for a CSS Design Award.</p>
           <div id="social">
             <a href="https://www.linkedin.com/in/ryan-mcintosh-5089639/" className="my_media">  
               <SocialIcon network="linkedin" className="sm" />

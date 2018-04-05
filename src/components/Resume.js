@@ -77,8 +77,11 @@ function Resume(props) {
           <li>MongoDB</li>
           <li>Authentication</li>
           <li>Debugging</li>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Illustrator</li>
+          <li>Adobe Creative Suite</li>
+          <li>UI/UX</li>
+          <li>Logo Design</li>
+          <li>Branding</li>
+          <li>Mobile Design</li>
         </ul>
       </div>
     </div>

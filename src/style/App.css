@@ -28,6 +28,16 @@
   src: url(../fonts/Venue.ttf);
 }
 
+@font-face {
+  font-family: 'Beauty';
+  src: url(../fonts/BeautyDemo.ttf);
+}
+
+@font-face {
+  font-family: 'Jenna';
+  src: url(../fonts/JennaSue.ttf);
+}
+
 .App {
   text-align: center;
 }
@@ -188,16 +198,16 @@ iframe {
 
 .text {
   height: 300px;
-  width: 300px;
+  max-width: 500px;
 }
 
 .text h1 {
   text-align: center;
   text-shadow: 2px 3px rgba(43, 41, 41, 0.8);
   color: rgb(255, 255, 255);
-  margin-top: 85px;
+  
   padding-bottom: 5px;
-  font-family: 'Preschool';
+  font-family: 'Beauty';
   font-weight: 800px;
   font-size: 45px;
   
@@ -208,10 +218,10 @@ iframe {
   text-align: center;
   color: #ffffff;
   text-shadow: 1px 1px rgba(0, 0, 0, .1);
-  margin-top: 0px;
-  font-family: 'Lato', serif;
+  margin-top: 10px !important;
+  font-family: 'Jenna', serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 30px;
   
 }
 
@@ -228,9 +238,6 @@ iframe {
   cursor: pointer;
   /* transition: all .3s ease-in-out; */
   justify-content: center;
-}
-
-.sm {
 }
 
 .my_media:hover {
