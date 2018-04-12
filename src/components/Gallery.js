@@ -36,11 +36,11 @@ class Gallery extends React.Component {
           </button>
           <div className="collapse my-navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
+            <li className="nav-item">
+                <Link className="my-nav-link" to="/about">About</Link>
+              </li>
               <li className="nav-item active">
                 <Link className="my-nav-link" to="/resume">Résumé<span className="sr-only">(current)</span></Link>
-              </li>
-              <li className="nav-item">
-                <Link className="my-nav-link" to="/projects">Web Projects</Link>
               </li>
               <li className="nav-item">
                 <Link className="my-nav-link" to="/gallery">Design Gallery</Link>
@@ -90,25 +90,25 @@ class Gallery extends React.Component {
           <img id="ps-logo" src="http://icons.veryicon.com/png/Application/Custom%20Round%20Yosemite/Adobe%20Illustrator.png" />
         </div> 
         <section className="ps" >
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_1} alt="" />
             <img className="photoshop_img" src={Img_2} alt="" />
             <img className="photoshop_img" src={Img_3} alt="" />
             <img className="photoshop_img" src={Img_4} alt="" />
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_5} alt="" />
             <img className="photoshop_img" src={Img_6} alt="" />
             <img className="photoshop_img" src={Img_7} alt="" />
             <img className="photoshop_img" src={Img_8} alt="" />
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_14} alt="" />
             <img className="photoshop_img" src={Img_10} alt="" />
             <img className="photoshop_img" src={Img_11} alt="" />
             <img className="photoshop_img" src={Img_12} alt="" />
           </div>
-          <div className="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+          <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
             <img className="photoshop_img" src={Img_13} alt="" />
             <img className="photoshop_img" src={Img_15} alt="" />
             <img className="photoshop_img" src={Img_16} alt="" />

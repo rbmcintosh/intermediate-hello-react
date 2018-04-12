@@ -74,31 +74,35 @@
 }
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    background: #eee;
-    height: 100%;
-    overflow: hidden;
-    padding: 0;
-    position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
 }
 
 iframe {
-    box-sizing: border-box;
-    height: 56.25vw;
-    left: 50%;
-    min-height: 100%;
-    min-width: 100%;
-    transform: translate(-50%, -50%);
-    position: fixed;
-    top: 50%;
-    width: 177.77777778vh;
-    z-index: -1;
-    pointer-events: none;
+  box-sizing: border-box;
+  height: 56.25vw;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  width: 177.77777778vh;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .bg-light {
@@ -375,12 +379,15 @@ iframe {
 .ps {
   width: 100%;
   height: auto;
+  /* border-top: 1px solid white; */
+  padding-top: 40px;
+  background: rgba(255, 255, 255, 0.3) !important;
 }
 
 .photoshop_img {
   padding: 0px;
   height: 250px;
-  width: 100%;
+  width: 300px;;
   margin: 0px 0px 25px 0px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   cursor: pointer;
@@ -415,6 +422,17 @@ iframe {
   align-self: center;
   margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.two-thirds {
+  display: inline-block;
+  width: 80%;
+}
+
+.one-third {
+  width: 20%;
+  float: right;
+  background: rgba(0,0,0,0.25);
 }
 
 #section {

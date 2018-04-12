@@ -18,11 +18,11 @@ function HomePage() {
       </button> 
       <div className="collapse my-navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
+        <li className="nav-item">
+            <Link className="my-nav-link" to="/about">About</Link>
+          </li>
           <li className="nav-item active">
             <Link className="my-nav-link" to="/resume">Résumé<span className="sr-only">(current)</span></Link>
-          </li>
-          <li className="nav-item">
-            <Link className="my-nav-link" to="/projects">Web Projects</Link>
           </li>
           <li className="nav-item">
             <Link className="my-nav-link" to="/gallery">Design Gallery</Link>
