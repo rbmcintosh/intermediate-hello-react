@@ -45,48 +45,53 @@ function HomePage() {
         </div> */}
         
     <div class="container">
-      <iframe src="https://player.vimeo.com/video/82063750?autoplay=1&loop=1&controls=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+      <iframe src="https://player.vimeo.com/video/82063750?autoplay=1&loop=1&controls=0" alt="https://i.pinimg.com/originals/74/93/2e/74932ee00de8ae426662ff36fe8fb06f.png?autoplay=1&loop=1&controls=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
     </div> 
-      <div className="text center">
-        <Animated animationIn="lightSpeedIn">
-          <h1 className="">Ryan McIntosh<br></br>
-          <p>Web and Graphic Designer</p>
-          <div id="social">
-            <a href="https://www.linkedin.com/in/ryan-mcintosh-5089639/" className="my_media">  
-              <SocialIcon network="linkedin" className="sm" />
-              <p className="hidden_text">LinkedIn</p>
-            </a> 
-            <a href="https://twitter.com/RyanMcI91679321" className="my_media"> 
-              <SocialIcon network="twitter" className="sm" />
-              <p className="hidden_text">Twitter</p>
-            </a> 
-            <a href="https://soundcloud.com/rbmcintosh" className="my_media">
-              <SocialIcon network="soundcloud" className="sm" />
-              <p className="hidden_text">Soundcloud</p>
-            </a>   
-            <a href="https://www.facebook.com/ryan.mcintosh.7524" className="my_media">
-              <SocialIcon network="facebook" className="sm" />
-              <p className="hidden_text">Facebook</p>
-            </a> 
-            <a href="https://github.com/rbmcintosh" className="my_media">
-              <SocialIcon network="github" className="sm" />
-              <p className="hidden_text">Github</p>
-            </a> 
-            <a href="https://www.instagram.com/ryan_b_mcintosh/" className="my_media">
-              <SocialIcon network="instagram" className="sm" />
-              <p className="hidden_text">Instagram</p>
-            </a> 
-          </div>
-          </h1>
-        </Animated>
-      </div>
-      <div id="footer">
+    <div className="text center">
+      <Animated animationIn="lightSpeedIn">
+        <h1 className="">Ryan McIntosh<br></br></h1>
+        <p>Web and Graphic Designer</p>
+        <div id="social">
+          <a href="https://www.linkedin.com/in/ryan-mcintosh-5089639/" className="my_media">  
+            <SocialIcon network="linkedin" className="sm" />
+            <p className="hidden_text">LinkedIn</p>
+          </a> 
+          <a href="https://soundcloud.com/rbmcintosh" className="my_media">
+            <SocialIcon network="soundcloud" className="sm" />
+            <p className="hidden_text">Soundcloud</p>
+          </a>   
+          <a href="https://www.facebook.com/ryan.mcintosh.7524" className="my_media">
+            <SocialIcon network="facebook" className="sm" />
+            <p className="hidden_text">Facebook</p>
+          </a> 
+          <a href="https://github.com/rbmcintosh" className="my_media">
+            <SocialIcon network="github" className="sm" />
+            <p className="hidden_text">Github</p>
+          </a> 
+          <a href="https://www.instagram.com/ryan_b_mcintosh/" className="my_media">
+            <SocialIcon network="instagram" className="sm" />
+            <p className="hidden_text">Instagram</p>
+          </a> 
+        </div>
+      </Animated>
+    </div>
+    <div id="footer">
+      <div className="hp-one-third">
         <h3 id="ci">Contact Information:</h3>
         <p5 className="info">Email - ryanbmcintosh@gmail.com</p5>
         <p5 className="info">Phone - (832)814-3305</p5>
-        <p5 className="info">Address - 7211 Easy Wind Drive, Unit 1137<br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Austin, Texas 78752</p5>
-        </div>
-    </div> 
+        <p5 className="info">LinkedIn - www.linkedin.com/in/ryan-mcintosh-5089639</p5>
+      </div>
+      <div className="hp-two-thirds">
+        {/* <h3 id="ci">Relevant Skills:</h3> */}
+        <img className="skillset" src="http://cloudproxima.com/images/news/large/2.png" />
+        <img className="skillset" src="https://appendto.com/wp-content/uploads/2016/05/React-1.png" />
+        <img className="skillset" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" />
+        <img className="skillset" src="https://photofocus.com/wp-content/uploads/2013/09/adobe_creative_cloud_logotype_with_icon_rgb_vertical.png" />
+        <img className="skillset" src="http://pluspng.com/img-png/wordpress-horizontal-color-logo-594.png" />
+      </div>
+    </div>
+  </div> 
   );
 }
 
