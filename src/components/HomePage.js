@@ -9,7 +9,7 @@ import Resume from './Resume';
 function HomePage() {
   return ( 
     <div id="homepage">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light my-bg-light">
         <Link className="my-navbar-brand" to="/">
           <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.pvhc.net/img144/mxucxzruwiwrnmmzlxxl.png" alt="Home" /></Animated>
         </Link>
@@ -83,12 +83,21 @@ function HomePage() {
         <p5 className="info">LinkedIn - www.linkedin.com/in/ryan-mcintosh-5089639</p5>
       </div>
       <div className="hp-two-thirds">
-        {/* <h3 id="ci">Relevant Skills:</h3> */}
-        <img className="skillset" src="http://cloudproxima.com/images/news/large/2.png" />
-        <img className="skillset" src="https://appendto.com/wp-content/uploads/2016/05/React-1.png" />
-        <img className="skillset" src="https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png" />
-        <img className="skillset" src="https://photofocus.com/wp-content/uploads/2013/09/adobe_creative_cloud_logotype_with_icon_rgb_vertical.png" />
-        <img className="skillset" src="http://pluspng.com/img-png/wordpress-horizontal-color-logo-594.png" />
+        <div className="skillset">
+          <img src="" />
+        </div>
+        <div className="skillset">
+          <img src="" />
+        </div>
+        <div className="skillset">
+          <img src="" />
+        </div>
+        <div className="skillset">
+          <img src="" />
+        </div> 
+        <div className="skillset"> 
+          <img src="" />
+        </div>
       </div>
     </div>
   </div> 

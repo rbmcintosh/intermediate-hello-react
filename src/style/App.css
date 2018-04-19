@@ -105,9 +105,12 @@ iframe {
   pointer-events: none;
 }
 
-.bg-light {
-  background: rgba(255, 255, 255, 0.3) !important;
+.my-bg-light {
+  background-image: url("../images/dirty-grunge-texture-5-1.jpg");
+  background-size: cover;
+  background-position: left;
   position: absolute;
+  z-index: -100;
 }
 
 .navbar {
@@ -150,9 +153,7 @@ iframe {
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-  
 }
-
 
 .navbar-brand {
   color: rgba(8, 5, 5, 0.9);
@@ -177,7 +178,7 @@ iframe {
 }
 
 .my-nav-link {
-  color: rgb(39, 38, 38);
+  color :#F6610D;
   margin: 0px 15px 0px 15px;
   font-family: 'Preschool';
   font-size: 25px;
@@ -200,7 +201,10 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.3) !important;
+  /* background: rgba(255, 255, 255, 0.3) !important; */
+  background-image: url("../images/dirty-grunge-texture-5-1.jpg");
+  background-size: cover;
+  background-position: left;
   position: absolute;
   margin: auto;
   top: 0;
@@ -221,7 +225,7 @@ iframe {
 .text h1 {
   text-align: center;
   text-shadow: 2px 3px rgba(43, 41, 41, 0.8);
-  color: rgb(255, 255, 255);
+  color :#F6610D;
   font-family: 'Beauty';
   font-weight: 800px;
   font-size: 60px;
@@ -297,10 +301,12 @@ iframe {
   position: absolute;
   bottom: 0px;
   padding: 10px 0px 15px 0px;
-  background: rgba(255, 255, 255, 0.3) !important;
-  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  background-image: url("../images/dirty-grunge-texture-5-1.jpg"); 
+  background-size: cover;
+  background-position: left;
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.25);
 	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.25);
 }
 
 .hp-one-third {
@@ -313,18 +319,21 @@ iframe {
 }
 
 .hp-two-thirds {
+  height: auto;
   display: flex;
+  flex-direction: row;
   width: 67%;
   margin-left: 20px;
 }
 
-.skillset {
-  height: 80px;
-  /* width: auto; */
+.skillset img{
+  width: auto;
+  height: 100px;
   
 }
 
 #ci {
+  color: #F6610D;
   margin-left: 20px;
   margin-top: 0px !important;
   padding-top: 0px !important;
@@ -333,6 +342,7 @@ iframe {
 }
 
 .info {
+  color: white;
   margin-left: 20px;
   margin-top: 2px;
   font-family: 'cursive';

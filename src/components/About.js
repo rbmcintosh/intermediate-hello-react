@@ -5,7 +5,7 @@ import {Animated} from "react-animated-css";
 function Projects (props) {
   return (
     <div id="projects_div">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light my-bg-light">
         <Link className="my-navbar-brand" to="/">
           <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.pvhc.net/img144/mxucxzruwiwrnmmzlxxl.png" alt="Home" /></Animated>
         </Link>
