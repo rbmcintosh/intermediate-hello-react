@@ -7,7 +7,7 @@ function Projects (props) {
     <div id="projects_div">
       <nav className="navbar navbar-expand-lg navbar-light my-bg-light">
         <Link className="my-navbar-brand" to="/">
-          <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.pvhc.net/img144/mxucxzruwiwrnmmzlxxl.png" alt="Home" /></Animated>
+          <Animated animationIn="bounceInLeft"><img id="my-logo" src="http://www.newdesignfile.com/postpic/2010/05/green-home-icon_337211.png" alt="Home" /></Animated>
         </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
